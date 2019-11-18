@@ -1,4 +1,3 @@
-
 let numTimesClicked = 0
 
 function win() {
@@ -17,5 +16,3 @@ function click() {
     win()
   }
 }
-
-module.exports = click

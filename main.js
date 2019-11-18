@@ -1,5 +1,3 @@
-const click = require('./game')
-
 const clicker = document.getElementById('clicker')
 
 clicker.addEventListener('click', function(e) {
