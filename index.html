@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>GAME</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
 
-<head>
-  <title>GAME</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
+  <body>
 
-<body>
-  <div id="clicker">Click Me</div>
-  <script type="text/javascript" src="bundle.js"></script>
-</body>
+    <div id="clicker">Click Me</div>
 
+    <!-- Order matters -->
+    <script>
+      alert(x);
+      // Will alert '3';
+    </script>
+    <script>
+      var x = 3;
+    </script>
+
+    <!-- Clicker Game -->
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+
+  </body>
 </html>
